@@ -1,5 +1,5 @@
 {
-  "name": "@ngageoint/csv-to-geopackage",
+  "name": "@ngageoint/geopackage-csv-js",
   "version": "4.1.0",
   "description": "GeoJSON to GeoPackage converter",
   "keywords": [
