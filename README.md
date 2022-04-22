@@ -29,7 +29,7 @@ const tableName = 'features';
 const converter = new CSVToGeoPackage();
 converter.convert({ csv: csvFile, geoPackage: geoPackageFile, tableName: tableName }).then(() => {
   console.log('File conversion complete');
-  console.log('Converted %s to %s', geoJSONFile, geoPackageFile);
+  console.log('Converted %s to %s', csvFile, geoPackageFile);
 });
 
 // Extract CSV from GeoPackage feature table
